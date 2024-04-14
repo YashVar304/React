@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className='gap-y-3 w-full flex flex-col justify-center items-center'>
        {todos && todos.map((todo)=>(
-        <div className="w-full max-w-lg"key={todo.id}>
+        <div className="w-full max-w-lg" key={todo.id}>
           <TodoList todo={todo}/>
         </div>
        ))}
